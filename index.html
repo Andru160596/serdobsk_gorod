@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Шрифт -->
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<!-- bootstrap стиль -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Jquery -->
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<!--Модальное окно-->
+	<script src="js/jquery.the-modal.js"></script>
+	<!--Скролл-->
+	<script src="js/jquery.custom-scroll.min.js"></script>
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+	<!-- Стандартный стиль -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Меню -->
+	<div class="wrapper">
+		<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0" style="padding: 0">
+			<div class="menu">
+				<div class="litter" id="mobil_litter">
+			    	<a href="">A <span>A</span></a>
+			    </div>
+			    <div class="menu__icon">
+			      <span></span>
+			      <span></span>
+			      <span></span>
+			      <span></span>
+			    </div>
+			    <div class="menu__links">
+			        <a class="menu__links-item" href="/">Главная</a>
+			        <a class="menu__links-item" href="/">О Сердобске </a>
+			        <a class="menu__links-item" href="/">Галерея </a>
+			        <a class="menu__links-item" href="/">Справочник </a>
+			        <a class="menu__links-item" href="/">Новости </a>
+			        <a class="menu__links-item" href="/">Контакты </a>
+			        <a class="menu__links-item" href="/">Гостевая книга </a>
+			    <div class="litter">
+			    	<a href="">A <span>A</span></a>
+			    </div>
+			    <form action="" method="get" class="search searchform">
+			    	<input type="search" name="votrevariable" id="search" placeholder="Поиск по сайту">
+			    	<hr id="form_line_search">
+			    	<button type="reset" value="" id="clear_search" /></button>
+					<input id="submit" value="" type="submit">
+					<label for="submit" class="submit"></label>
+					<a href="javascript: void(0)" class="icon"></a>
+				</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wpapper row">
+		<div class="col" style="padding: 0">
+			<form action="" method="get" class="search_2">
+		    	<div id="wr_search_2"><input type="search" name="votrevariable" id="search_2" placeholder="Поиск по сайту"></div>
+		    	<button type="reset" value="" id="clear_search_2" /></button>
+				<input id="submit_2" value="" type="submit">
+			</form>
+		</div>
+	</div>
+
+	<!-- Слайдер -->
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  </ol>
+	  <div class="carousel-inner" role="listbox">
+	    <div class="carousel-item active">
+	      <div class="img_carousel-wr">
+	      	<img class="d-block img-fluid" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16263304946%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16263304946%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3203125%22%20y%3D%22217.7%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="First slide">
+	      	</div>
+	      	<div class="carousel-caption d-md-block">
+	      		<div class="logo_slider"></div>
+			    <h1>Сайт <br>Администрации<br> <span>г. Сердобск</span></h1>
+			    <hr>
+			    <p>Рады видеть вас на сайте.) В разделах вы найдёте фотоотчеты, документацию, номера телефонов служб города и другое.  А интересующий вопрос сможете задать напрямую главе города.</p>
+			</div>
+	    </div>
+	    <div class="carousel-item">
+	    	<div class="img_carousel-wr">
+	      		<img class="d-block img-fluid" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16263304946%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16263304946%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3203125%22%20y%3D%22217.7%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Second slide">
+	      	</div>
+	      	<div class="carousel-caption d-md-block">
+	      		<div class="logo_slider"></div>
+			    <h1>Сайт <br>Администрации<br> <span>г. Сердобск</span></h1>
+			    <hr>
+			    <p>Рады видеть вас на сайте.) В разделах вы найдёте фотоотчеты, документацию, номера телефонов служб города и другое.  А интересующий вопрос сможете задать напрямую главе города.</p>
+			</div>
+	    </div>
+	    <div class="carousel-item">
+	    	<div class="img_carousel-wr">
+	    		<img class="d-block img-fluid" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16263304946%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16263304946%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3203125%22%20y%3D%22217.7%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Third slide">
+	    	</div>
+	    	<div class="carousel-caption d-md-block">
+	      		<div class="logo_slider"></div>
+			    <h1>Сайт <br>Администрации<br> <span>г. Сердобск</span></h1>
+			    <hr>
+			    <p>Рады видеть вас на сайте.) В разделах вы найдёте фотоотчеты, документацию, номера телефонов служб города и другое.  А интересующий вопрос сможете задать напрямую главе города.</p>
+			</div>
+	    </div>
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Назад</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Вперед</span>
+	  </a>
+	</div>
+	<!-- Основной блок -->
+	<div class="wrapper m_60">
+		<div class="row justify-content-between">
+			<div class="col-lg col-xs-10 offset-1 offset-lg-0" id="administration" >
+				<div class="row">
+					<div class="col">
+						<div class="header">
+							Администрация
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-between">
+					<div class="stndart_colum col-xs-10 col-xs-offset-1 col-sm col-sm-offset-0">
+						<img src="img/glava.jpg" alt="Глава администрации" id="glava_img">
+						<p id="glava_title">Макаров Виталий Витальевич</p>
+						<small id="glava_title_small">Глава администрации г. Сердобск</small>
+						<a href="#win1" class="button_1 trigger_1" id="glava_queshion">Задать вопрос</a>
+					</div>
+					<div class="col">
+						<p id="glava_word">Приветственное слово</p>
+						<p id="glava_word_text"><span>Уважаемые гости сайта администрации г. Сердобска!</span>
+			Я -  Виталий Виталиевич Макаров,  глава адмминистрации г. Сердобска. Продолжая традицию своих предшественников, рад обратиться к вам со словами приветствия!  На нашем сайте вы ознакомитесь с положением дел в экономике города, с ходом выполнения принятых программ, новостями культурной и общественной жизни Сердобска. Надеюсь на конструктивное сотрудничество со всеми ...</p>
+						<a href="#win3" id="glava_full_text" class="button_2  trigger_3">Читать полностью</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-10 offset-1 offset-lg-0" id="monogorod_wr" >
+				<div class="row">
+					<div class="col">
+						<div class="header header_long">
+							Моногород
+						</div>
+					</div>
+				</div>
+				<div id="list_monogorod">
+					<div id="monogorod_list_wr">
+						<div class="block_monogorod">
+							<div class="monogorod_news">
+								<img src="img/news.jpg" alt="" class="monogorod_img">
+								<p class="monogorod_text">26 февраля перемерзло или нет русло ручья Шишковка</p>
+							</div>
+							<div class="monogorod_news">
+								<img src="img/news.jpg" alt="" class="monogorod_img">
+								<p class="monogorod_text">26 февраля перемерзло или нет русло ручья Шишковка</p>
+							</div>
+						</div>
+						<div class="block_monogorod">
+							<div class="monogorod_news">
+								<img src="img/news.jpg" alt="" class="monogorod_img">
+								<p class="monogorod_text">26 февраля перемерзло или нет русло ручья Шишковка</p>
+							</div>
+							<div class="monogorod_news">
+								<img src="img/news.jpg" alt="" class="monogorod_img">
+								<p class="monogorod_text">26 февраля перемерзло или нет русло ручья Шишковка</p>
+							</div>
+						</div>
+						<div class="block_monogorod">
+							<div class="monogorod_news">
+								<img src="img/news.jpg" alt="" class="monogorod_img">
+								<p class="monogorod_text">26 февраля перемерзло или нет русло ручья Шишковка</p>
+							</div>
+							<div class="monogorod_news">
+								<img src="img/news.jpg" alt="" class="monogorod_img">
+								<p class="monogorod_text">26 февраля перемерзло или нет русло ручья Шишковка</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- Event -->
+
+	<div class="wrapper m_60 ">
+		<div class="row" id="event">
+			<div id="chemodan"></div>
+			<p id="event_text">Собрание представителей г. Сердобск</p>
+			<a href="" class="button_3" id="event_button">Подробнее</a>
+		</div>
+	</div>
+
+	<!--Основной блок 2-->	
+	<div class="wrapper m_60">
+		<div class="row">
+			<div class="col-md-3 col-10 mr-auto offset-1 offset-md-0" id="left-menu">
+				<div id="left-menu-wr">
+					<h3>Общественное мнение</h3>
+					<ul id="accordion" class="accordion">
+						
+						</ul>
+						<ul class="main-menu">
+						        <li><a href="#">Городские новости</a></li>
+								<li><a href="#">Кадастровая палата информирует</a></li>	
+								<li><a href="">Прокуратура разъясняет</a>
+									 <ul class="sub-menu">
+									    <li><a href="#">Подраздел сайта пример</a></li>
+									    <li><a href="#">Подраздел сайта пример</a></li>
+									    <li><a href="#">Подраздел сайта пример</a></li>
+									 </ul>
+								</li>
+								<li><a href="#">Конкурс</a></li>
+								<li>
+									 <a href="">Информация для застройщика</a>
+									    <ul class="sub-menu">
+									      <li><a href="#">Подраздел сайта пример</a></li>
+									      <li><a href="#">Подраздел сайта пример</a></li>
+									      <li><a href="#">Подраздел сайта пример</a></li>
+									    </ul>
+								</li>
+								<li>
+									  <a href="">Экономика, потребительский рунок  и сфера услуг</a>
+									    <ul class="sub-menu">
+									      <li><a href="#">Подраздел сайта пример</a></li>
+									      <li><a href="#">Подраздел сайта пример</a></li>
+									      <li><a href="#">Подраздел сайта пример</a></li>
+									    </ul>
+									  </li>
+									<li><a href="#">Бюджет Сердобска</a></li>
+									<li><a href="#">Предприятия города</a></li>	
+									<li><a href="#">Жилищно - коммунальное хозяйство</a></li>
+									<li><a href="#">Публичные слушания</a></li>	
+									<li><a href="#">Земля и имущество</a></li>
+									<li><a href="#">Социальная политика</a></li>	
+									<li><a href="#">Муниципальная служба</a></li>
+									<li><a href="#">Против коррупции</a></li>	
+									<li><a href="#">Безопасность населения</a></li>
+									<li><a href="#">Безопасность дорожного движения</a></li>	
+									<li><a href="#">Модернизация муниципального управления</a></li>
+									<li><a href="#">Градостроительство</a></li>	
+									<li><a href="#">Правила землепользования и застройки</a></li>	
+									<li><a href="#">Персональные данные</a></li>	
+									<li><a href="#">Контакты</a></li>	
+									<li><a href="#">Общественное мнение</a></li>	
+									<li><a href="#">Формирование современной общественной среды</a></li>
+						 </ul>
+ 					</div>
+			</div>
+			<div class="col-10 col-md-8 offset-1 offset-md-0" id="news_wr">
+				<div class="header header_small">
+					Новости
+				</div>
+				<!--Новости-->
+				<div id="news_list">
+					<div id="news_list_wr">
+						<div class="news_block">
+							<img src="img/news.jpg" alt="" class="news_img">
+							<p class="news_date">24 февраля 2018</p>
+							<a class="news_text" src="">26 февраля перемерзло или нет русло ручья Шишковка</a>
+						</div>
+						<div class="news_block">
+							<img src="img/news.jpg" alt="" class="news_img">
+							<p class="news_date">24 февраля 2018</p>
+							<a class="news_text" src="">26 февраля перемерзло или нет русло ручья Шишковка</a>
+						</div>
+						<div class="news_block">
+							<img src="img/news.jpg" alt="" class="news_img">
+							<p class="news_date">24 февраля 2018</p>
+							<a class="news_text" src="">26 февраля перемерзло или нет русло ручья Шишковка</a>
+						</div>
+						<div class="news_block">
+							<img src="img/news.jpg" alt="" class="news_img">
+							<p class="news_date">24 февраля 2018</p>
+							<a class="news_text" src="">26 февраля перемерзло или нет русло ручья Шишковка</a>
+						</div>
+					</div>
+				</div>
+				<!--Банеры-->
+				<div id="baner_list">
+					<div id="baner_list_wr">
+						<div class="baner_block"><a href=""><p>текстовый блок или фото/лого/ т.п.</p></a></div>
+						<div class="baner_block"><a href=""><p>текстовый блок или фото/лого/ т.п.</p></a></div>
+						<div class="baner_block"><a href=""><p>текстовый блок или фото/лого/ т.п.</p></a></div>
+						<div class="baner_block"><a href=""><p>текстовый блок или фото/лого/ т.п.</p></a></div>
+					</div>
+				</div>
+
+				<div class="row" id="event_2">
+					<div id="test"></div>
+					<p id="event_2_text">Общественное мнение<span>Тематические опросы жителей г. Сердобск</span></p>
+					<a href="" class="button_3" id="event_2_button">Подробнее</a>
+				</div>
+
+				<div class="row" id="event_3">
+					<div id="ryp"></div>
+					<p id="event_3_text">Гражданская инициатива</p>
+					<a href="" class="button_3" id="event_3_button">Подробнее</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div id="footer">
+	<div class="wrapper">
+		<footer class="row">
+			<div class="col-md col-sm-10 col-xs-10 offset-1 offset-md-0">
+				<p class="footer_old_text">При использовании материалов официального интернет-сайта Администрации города Сердобска ссылка на www.gorod-serdobsk.ru - обязательна</p>
+				<a class="footer_old_a" href="http://www.gorod-serdobsk.ru/">Старая версия сайта</a>
+			</div>
+			<div class="col-md col-sm-10 col-xs-10 offset-1 offset-md-0" id="footer_part_2">
+				<div class="row">
+				<div class="col">
+					<p class="footer_header">Карта сайта</p>
+					<ul class="footer_menu">
+						<li><a href="">Главная</a></li>
+						<li><a href="">О Сердобске</a></li>
+						<li><a href="">Галерея</a></li>
+						<li><a href="">Справочник</a></li>
+						<li><a href="">Новости</a></li>
+						<li><a href="">Контакты</a></li>
+						<li><a href="">Гостевая книга</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<p class="footer_header">Контакты</p>
+					<p class="contact">	Россия Пензенская область, Сердобский район г. Сердобск, ул. Ленина, 90</p>
+					<p class="contact">Телефон: ( 84-167 ) 2-26-10</p>
+					<p class="contact">Факс: ( 84-167 ) 2-20-06</p>
+					<p class="contact">Электронная почта: gorfo@sura.ru</p>
+				</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md col-sm-10 col-xs-10 offset-1 offset-md-0" >
+				   <a href="http://waydev.ru/" class="waydev"c>Разработка сайта - WAYDEV</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	</div>
+
+
+
+
+<!--Модальные-->
+
+
+
+   <div class="modal popup" id="modal_1" style="display: none">
+     <div class="content_popup row">
+     	<div class="col-12" id="popup_h1_wr"><h1>Заполните форму</h1></div>
+     	<form action="#" class="col-12 row" id="form_modal">
+	     	<div class="col-sm-6 form_left_colum" style="padding: 0;">
+	     		<div class="form_el_wr">
+		     		<label for="form_FIO" class="label">Ваше Ф.И.О</label>
+		     		<input type="text" class="input-form" id="form_FIO" placeholder="Введите Ф.И.О" required>
+				</div>
+				<div class="form_el_wr">
+		     		<label for="form_phone" class="label">Номер телефона</label>
+		     		<input type="tel" class="input-form" id="form_phone"  placeholder="+7 (___) ___-__-__" required maxlength="17">
+				</div>
+				<div class="form_el_wr">
+		     		<label for="form_email" class="label">Электронная почта</label>
+		     		<input type="email" class="input-form" id="form_email" placeholder="Введите email" required>
+				</div>
+				<div class="form_el_wr">
+	     			<label for="form_indecs" class="label">Почтовый индекс</label>
+	     			<textarea name="" id="form_index" cols="30" rows="10" class="input-form textarea-form-index" placeholder="440000, Иванов Иван, Иванович. Пензенская обл, г. Серобск ул. Лесная д. 3, кв. 27" required></textarea>
+				</div>
+	     	</div>
+	     	<div class="col-sm-6 form_right_colum" style="">
+	     		<div class="form_el_wr">
+	     			<label class="label">Ваш вопрос</label>
+	     			<textarea name="" id="form_queshions" cols="30" rows="10" class="input-form textarea-form-queshion" placeholder="440000, Иванов Иван, Иванович. Пензенская обл, г. Серобск ул. Лесная д. 3, кв. 27" required></textarea>
+				</div>
+				<div class="form-wr-btn">
+					<button type="submit" href="" class="button_4" onclick="complite()" >Отпаравить</button>
+					<p class="form_dan_p">Нажимая кнопку «Отправить», я соглашаюсь с обработкой своих персональных данных</p>
+				</div>
+	     	</div>
+     	</form>
+     </div>
+    <a class="close"title="Закрыть" href="#close"></a>
+    </div>
+
+
+
+
+	<div class="modal popup popup_end" id="modal_2" style="display: none">
+         <a href="#" class="close"></a>
+	     <div class="content_popup">
+	     	<img src="img/plane.png" alt="">
+	     	<h2>Вопрос отправлен</h2>
+	     	<p>Ожидайте ответа.</p>
+	     </div>
+    </div>
+
+
+   <div class="modal popup popup_hellow" id="modal_3" style="display: none">
+     <div class="content_popup">
+     	<h1>Приветственное слово</h1>
+     	<h3>Уважаемые гости сайта администрации г. Сердобска!</h3>
+		<p>Я -  Виталий Виталиевич Макаров,  глава адмминистрации г. Сердобска. Продолжая традицию своих предшественников, рад обратиться к вам со словами приветствия!  На нашем сайте вы ознакомитесь 
+		с положением дел в экономике города, с ходом выполнения принятых программ, новостями культурной и общественной жизни Сердобска. Надеюсь на конструктивное сотрудничество со всеми заинтересованными гражданами и организациями с нашим городом.</p>
+
+		<p class="p_bold">Немного о городе.</p>
+
+		<p>Сердобску уже 320 лет. Город богат самобытной историей и вековыми православными традициями. Сердобчане сильный народ. Они не раз они выводили свой город из захолустья, создавая новое, крепкое основание для дальнейшего развития.  Да, современный Сердобск утратил ряд позиций в машиностроении,  производстве другой значимой для прошлой экономики продукции. Но сегодня готов принять любых инвесторов, рассмотреть предложения о сотрудничестве, дать производственные площади, свободные земельные участки, рассмотреть возможность аренды муниципального имущества и жилого фонда. У Сердобска есть потенциал для развития предпринимательства, сферы услуг.</p>
+
+		<p class="p_bold">О людях.</p>
+
+		<p>Один из приоритетов местной власти: строительство системы самоорганизации населения, для решения насущных вопросов жизни на территории проживания.  Получив в этом веке новый для себя статус городского поселения,  город продолжает осваивать реформу местного самоуправления.  Без участия самих граждан в этом процессе городу сегодня не обойтись. От успеха этого дела будет зависеть уровень развития городского благоустройства, ЖКХ, состояния дорожной инфраструктуры,  и других проблем.
+		<br>
+		Мы открыты к диалогу и с благодарностью примем советы и помощь. Особенно рассчитываем 
+		на участие в совместной деятельности. Желаю  всем добра и счастья, и удачи в делах!</p>
+		<p class="p_autor">
+			С уважением, главы администрации города Сердобска<br><span>В. В. Макаров</span>
+		</p>
+     </div>
+     <a class="close"title="Закрыть" href="#close"></a>
+    </div>
+	<script src="js/main.js"></script>
+	<script>
+
+	</script>
+</body>
+</html>

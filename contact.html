@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Шрифт -->
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<!-- bootstrap стиль -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Jquery -->
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<!--Модальное окно-->
+	<script src="js/jquery.the-modal.js"></script>
+	<!--Скролл-->
+	<script src="js/jquery.custom-scroll.min.js"></script>
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+	<!-- Стандартный стиль -->
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
+
+</head>
+<body>
+	<!-- Меню -->
+	<div class="wrapper">
+		<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0" style="padding: 0">
+			<div class="menu">
+				<div class="litter" id="mobil_litter">
+			    	<a href="">A <span>A</span></a>
+			    </div>
+			    <div class="menu__icon">
+			      <span></span>
+			      <span></span>
+			      <span></span>
+			      <span></span>
+			    </div>
+			  
+			    <div class="menu__links">
+			        <a class="menu__links-item" href="/">Главная</a>
+			        <a class="menu__links-item" href="/">О Сердобске </a>
+			        <a class="menu__links-item" href="/">Галерея </a>
+			        <a class="menu__links-item" href="/">Справочник </a>
+			        <a class="menu__links-item" href="/">Новости </a>
+			        <a class="menu__links-item" href="/">Контакты </a>
+			        <a class="menu__links-item" href="/">Гостевая книга </a>
+			    <div class="litter">
+			    	<a href="">A <span>A</span></a>
+			    </div>
+			    <form action="" method="get" class="search searchform">
+			    	<input type="search" name="votrevariable" id="search" placeholder="Поиск по сайту">
+			    	<hr id="form_line_search">
+			    	<button type="reset" value="" id="clear_search" /></button>
+					<input id="submit" value="" type="submit">
+					<label for="submit" class="submit"></label>
+					<a href="javascript: void(0)" class="icon"></a>
+				</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wpapper row">
+		<div class="col" style="padding: 0">
+			<form action="" method="get" class="search_2">
+		    	<div id="wr_search_2"><input type="search" name="votrevariable" id="search_2" placeholder="Поиск по сайту"></div>
+		    	<button type="reset" value="" id="clear_search_2" /></button>
+				<input id="submit_2" value="" type="submit">
+			</form>
+		</div>
+	</div>
+
+	<!-- Слайдер -->
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  </ol>
+	  <div class="carousel-inner" role="listbox">
+	    <div class="carousel-item active">
+	      <div class="img_carousel-wr">
+	      	<img class="d-block img-fluid" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16263304946%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16263304946%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3203125%22%20y%3D%22217.7%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="First slide">
+	      	</div>
+	      	<div class="carousel-caption d-md-block">
+	      		<div class="logo_slider"></div>
+			    <h1>Сайт <br>Администрации<br> <span>г. Сердобск</span></h1>
+			    <hr>
+			    <p>Рады видеть вас на сайте.) В разделах вы найдёте фотоотчеты, документацию, номера телефонов служб города и другое.  А интересующий вопрос сможете задать напрямую главе города.</p>
+			</div>
+	    </div>
+	    <div class="carousel-item">
+	    	<div class="img_carousel-wr">
+	      		<img class="d-block img-fluid" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16263304946%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16263304946%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3203125%22%20y%3D%22217.7%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Second slide">
+	      	</div>
+	      	<div class="carousel-caption d-md-block">
+	      		<div class="logo_slider"></div>
+			    <h1>Сайт <br>Администрации<br> <span>г. Сердобск</span></h1>
+			    <hr>
+			    <p>Рады видеть вас на сайте.) В разделах вы найдёте фотоотчеты, документацию, номера телефонов служб города и другое.  А интересующий вопрос сможете задать напрямую главе города.</p>
+			</div>
+	    </div>
+	    <div class="carousel-item">
+	    	<div class="img_carousel-wr">
+	    		<img class="d-block img-fluid" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16263304946%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16263304946%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3203125%22%20y%3D%22217.7%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Third slide">
+	    	</div>
+	    	<div class="carousel-caption d-md-block">
+	      		<div class="logo_slider"></div>
+			    <h1>Сайт <br>Администрации<br> <span>г. Сердобск</span></h1>
+			    <hr>
+			    <p>Рады видеть вас на сайте.) В разделах вы найдёте фотоотчеты, документацию, номера телефонов служб города и другое.  А интересующий вопрос сможете задать напрямую главе города.</p>
+			</div>
+	    </div>
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Назад</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Вперед</span>
+	  </a>
+	</div>
+
+	
+	<!--Основной блок -->	
+	<div class="wrapper m_60">
+		<div class="row">
+			<div class="col-md-3 col-10 mr-auto offset-1 offset-md-0" id="left-menu">
+				<div id="left-menu-wr">
+					<h3>Общественное мнение</h3>
+					<ul id="accordion" class="accordion">
+						
+						</ul>
+						<ul class="main-menu">
+						        <li><a href="#">Городские новости</a></li>
+								<li><a href="#">Кадастровая палата информирует</a></li>	
+								<li><a href="">Прокуратура разъясняет</a>
+									 <ul class="sub-menu">
+									    <li><a href="#">Подраздел сайта пример</a></li>
+									    <li><a href="#">Подраздел сайта пример</a></li>
+									    <li><a href="#">Подраздел сайта пример</a></li>
+									 </ul>
+								</li>
+								<li><a href="#">Конкурс</a></li>
+								<li>
+									 <a href="">Информация для застройщика</a>
+									    <ul class="sub-menu">
+									      <li><a href="#">Подраздел сайта пример</a></li>
+									      <li><a href="#">Подраздел сайта пример</a></li>
+									      <li><a href="#">Подраздел сайта пример</a></li>
+									    </ul>
+								</li>
+								<li>
+									  <a href="">Экономика, потребительский рунок  и сфера услуг</a>
+									    <ul class="sub-menu">
+									      <li><a href="#">Подраздел сайта пример</a></li>
+									      <li><a href="#">Подраздел сайта пример</a></li>
+									      <li><a href="#">Подраздел сайта пример</a></li>
+									    </ul>
+									  </li>
+									<li><a href="#">Бюджет Сердобска</a></li>
+									<li><a href="#">Предприятия города</a></li>	
+									<li><a href="#">Жилищно - коммунальное хозяйство</a></li>
+									<li><a href="#">Публичные слушания</a></li>	
+									<li><a href="#">Земля и имущество</a></li>
+									<li><a href="#">Социальная политика</a></li>	
+									<li><a href="#">Муниципальная служба</a></li>
+									<li><a href="#">Против коррупции</a></li>	
+									<li><a href="#">Безопасность населения</a></li>
+									<li><a href="#">Безопасность дорожного движения</a></li>	
+									<li><a href="#">Модернизация муниципального управления</a></li>
+									<li><a href="#">Градостроительство</a></li>	
+									<li><a href="#">Правила землепользования и застройки</a></li>	
+									<li><a href="#">Персональные данные</a></li>	
+									<li><a href="#">Контакты</a></li>	
+									<li><a href="#">Общественное мнение</a></li>	
+									<li><a href="#">Формирование современной общественной среды</a></li>
+						 </ul>
+ 					</div>
+				</div>
+			<div class="col-10 col-md-8 offset-1 offset-md-0" id="contact_wr">
+					<div id="croks-wr" class="col-12">
+						 <div id="croks">
+						 	<a href="">Главная</a>
+						 	<span>/</span>
+						 	<a href="">История</a>
+						 </div>
+				 </div>
+				 <h1>Контакты</h1>
+				 <h2>Администрация г. Сердобска</h2>
+				 <div class="row">
+				 	<div class="col-12 col-sm-4" style="padding: 0">
+					 <h3>Адрес</h3>
+					 <p>Россия Пензенская область, Сердобский район г. Сердобск, ул. Ленина, 90</p>
+					 <h3>Телефон</h3>
+					 <p>(84-167) 2-26-10</p>
+					 <h3>Факс</h3>
+					 <p>(84-167) 2-20-06</p>
+					 <h3>Эл.почта</h3>
+					 <p>gorfo@sura.ru</p>
+					 </div>
+					 <div class="col-12 col-sm-7 offset-0 offset-sm-1">
+					 <iframe src="https://yandex.ua/map-widget/v1/?um=constructor%3A2214fbd716726f192f69093d2ce686d285bc3c755c6ba75b0c7df5813119a6b3&amp;source=constructor" style="width: 100%; height: 480px;" frameborder="0"></iframe>
+					 </div>
+				 </div>
+				 <h2>Телефонный справочник <br>администрации</h2>
+				<diw class="row">
+					<div class="col-12 col-sm-6 contact_colum row">
+						<div class="col-8 contact_colum_one row align-items-center">
+							<p>Данные в блоке</p>
+						</div>
+						<div class="col-4 row contact_colum_two align-items-center">
+							<p>Свойство</p>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 contact_colum row">
+						<div class="col-8 contact_colum_one row align-items-center">
+							<p>Данные в блоке</p>
+						</div>
+						<div class="col-4 contact_colum_two row align-items-center">
+							<p>Свойство</p>
+						</div>						
+					</div>
+
+					<div class="col-12 col-sm-6 contact_colum row">
+						<div class="col-8 contact_colum_one row align-items-center">
+							<p>Данные в блоке</p>
+						</div>
+						<div class="col-4 row contact_colum_two align-items-center">
+							<p>Свойство</p>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 contact_colum row">
+						<div class="col-8 contact_colum_one row align-items-center">
+							<p>Данные в блоке</p>
+						</div>
+						<div class="col-4 contact_colum_two row align-items-center">
+							<p>Свойство</p>
+						</div>						
+					</div>
+
+					<div class="col-12 col-sm-6 contact_colum row">
+						<div class="col-8 contact_colum_one row align-items-center">
+							<p>Данные в блоке</p>
+						</div>
+						<div class="col-4 row contact_colum_two align-items-center">
+							<p>Свойство</p>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 contact_colum row">
+						<div class="col-8 contact_colum_one row align-items-center">
+							<p>Данные в блоке</p>
+						</div>
+						<div class="col-4 contact_colum_two row align-items-center">
+							<p>Свойство</p>
+						</div>						
+					</div>
+
+					<div class="col-12 col-sm-6 contact_colum row">
+						<div class="col-8 contact_colum_one row align-items-center">
+							<p>Данные в блоке</p>
+						</div>
+						<div class="col-4 row contact_colum_two align-items-center">
+							<p>Свойство</p>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 contact_colum row">
+						<div class="col-8 contact_colum_one row align-items-center">
+							<p>Данные в блоке</p>
+						</div>
+						<div class="col-4 contact_colum_two row align-items-center">
+							<p>Свойство</p>
+						</div>						
+					</div>
+
+				</div>
+					
+			</div>
+		</div>
+	</div>
+
+	
+	<div id="footer">
+	<div class="wrapper">
+		<footer class="row">
+			<div class="col-md col-sm-10 col-xs-10 offset-1 offset-md-0">
+				<p class="footer_old_text">При использовании материалов официального интернет-сайта Администрации города Сердобска ссылка на www.gorod-serdobsk.ru - обязательна</p>
+				<a class="footer_old_a" href="http://www.gorod-serdobsk.ru/">Старая версия сайта</a>
+			</div>
+			<div class="col-md col-sm-10 col-xs-10 offset-1 offset-md-0" id="footer_part_2">
+				<div class="row">
+				<div class="col">
+					<p class="footer_header">Карта сайта</p>
+					<ul class="footer_menu">
+						<li><a href="">Главная</a></li>
+						<li><a href="">О Сердобске</a></li>
+						<li><a href="">Галерея</a></li>
+						<li><a href="">Справочник</a></li>
+						<li><a href="">Новости</a></li>
+						<li><a href="">Контакты</a></li>
+						<li><a href="">Гостевая книга</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<p class="footer_header">Контакты</p>
+					<p class="contact">	Россия Пензенская область, Сердобский район г. Сердобск, ул. Ленина, 90</p>
+					<p class="contact">Телефон: ( 84-167 ) 2-26-10</p>
+					<p class="contact">Факс: ( 84-167 ) 2-20-06</p>
+					<p class="contact">Электронная почта: gorfo@sura.ru</p>
+				</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md col-sm-10 col-xs-10 offset-1 offset-md-0" >
+				   <a href="http://waydev.ru/" class="waydev"c>Разработка сайта - WAYDEV</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
