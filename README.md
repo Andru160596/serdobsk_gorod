@@ -1,0 +1,1 @@
+# serdobsk_gorod
